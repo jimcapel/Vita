@@ -1,0 +1,32 @@
+label {
+  font-size: medium;
+}
+
+.Form-Container {
+  display: flex;
+  flex: 1;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding: 16px;
+}
+
+.Input-Container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.Form-Container label {
+  margin-right: 16px;
+}
+
+.Form-Button {
+  display: flex;
+  align-items: flex-end;
+  flex: 1;
+  justify-content: flex-end;
+  margin-top: 32px;
+}

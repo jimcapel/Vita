@@ -1,0 +1,53 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 8px;
+  margin: 16px 16px 16px 16px;
+  padding-right: 16px;
+  height: 240px;
+  overflow: hidden;
+  min-width: 0px;
+}
+
+.Property-Text {
+  font-size: medium;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.Property-Name {
+  font-size: larger;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.Description {
+  font-size: medium;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.Information {
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  justify-content: space-evenly;
+}
+
+img {
+  border-radius: 8px;
+}

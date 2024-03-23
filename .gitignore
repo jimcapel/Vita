@@ -1,0 +1,24 @@
+# dependencies
+vita-frontend/node_modules
+vita-frontend/pnp
+vita-frontend/pnp.js
+
+# testing
+vita-frontend/coverage
+
+# production
+vita-frontend/build
+
+# misc
+vita-frontend/DS_Store
+vita-frontend/env.local
+vita-frontend/env.development.local
+vita-frontend/env.test.local
+vita-frontend/env.production.local
+
+vita-frontend/npm-debug.log*
+vita-frontend/yarn-debug.log*
+vita-frontend/yarn-error.log*
+
+VitaBackend/node_modules
+VitaBackend/dist
